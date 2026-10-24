@@ -1,0 +1,28 @@
+{
+  "name": "vaultpay-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VaultPay Financial Core - Track A frontend (Next.js) for Nexus Corporate Services",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "backend:install": "npm --prefix mock-backend install",
+    "backend:dev": "npm --prefix mock-backend run dev",
+    "backend:seed": "npm --prefix mock-backend run seed",
+    "security-check": "node scripts/security-check.mjs"
+  },
+  "dependencies": {
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}

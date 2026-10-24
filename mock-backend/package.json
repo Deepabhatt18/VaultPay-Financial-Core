@@ -1,0 +1,33 @@
+{
+  "name": "vaultpay-mock-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "VaultPay Financial Core - secure B2B invoicing & payment portal for Nexus Corporate Services",
+  "scripts": {
+    "dev": "next dev -p 4000",
+    "build": "next build",
+    "start": "next start -p 4000",
+    "seed": "node scripts/reset-data.mjs"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jose": "^5.9.6",
+    "next": "^15.1.0",
+    "nodemailer": "^6.9.16",
+    "pdfkit": "^0.15.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "server-only": "^0.0.1",
+    "stripe": "^17.5.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^22.10.0",
+    "@types/nodemailer": "^6.4.17",
+    "@types/pdfkit": "^0.13.8",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.2"
+  }
+}
